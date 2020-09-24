@@ -1,0 +1,122 @@
+[Root]
+Most Recent Package=Simply H@ck Client
+
+
+[Package|Simply H@ck Client|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\SH
+
+[Package|Simply H@ck Client|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Simply H@ck Client|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Simply H@ck Client|Files Found]
+
+[Package|Simply H@ck Client|Files Released]
+
+[Package|Simply H@ck Client|Missing Dependency Information]
+C:\WINDOWS\Desktop\VB-Programme\Simply Hack 4\client\FlatButton.ocx=
+
+[Package|Simply H@ck Client|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+
+[Package|Simply H@ck Client|Files Added]
+
+[Package|Simply H@ck Client|Files Removed]
+
+[Package|Simply H@ck Client|Files In Project]
+C:\WINDOWS\Desktop\Simply Hack.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\WINDOWS\SYSTEM\VB6DE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCC2DE.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT3DE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCMCDE.DLL=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTDE.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Visual Studio 6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\Desktop\VB-Programme\Simply Hack 4\client\FlatButton.ocx=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\INETDE.DLL=Yes
+D:\Visual Studio 6\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Visual Studio 6\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+D:\Visual Studio 6\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Simply H@ck Client|Configure Registry Files]
+Applicable=No
+
+[Package|Simply H@ck Client|Configure Remote Servers]
+Applicable=No
+
+[Package|Simply H@ck Client|Install Locations]
+C:\WINDOWS\Desktop\Simply Hack.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Programme\Visual Studio 6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCC2DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT3DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCMCDE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTDE.DLL=$(WinSysPath)
+D:\Programme\Visual Studio 6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Programme\Visual Studio 6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Programme\Visual Studio 6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Visual Studio 6\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\Desktop\VB-Programme\Simply Hack 4\client\FlatButton.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\INETDE.DLL=$(WinSysPath)
+D:\Visual Studio 6\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Visual Studio 6\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+D:\Visual Studio 6\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Simply H@ck Client|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\Simply Hack.exe=Yes
+
+[Package|Simply H@ck Client|Distribution]
+Type=single
+Size=
+Title=Simply H@ck
+
+[Package|Simply H@ck Client|IconGroups]
+Group0=Simply H@ck
+PrivateGroup0=Falsch
+Parent0=$(Programs)
+
+[Package|Simply H@ck Client|Simply H@ck]
+Icon1="Simply Hack.exe"
+Title1=Simply H@ck
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Simply H@ck Client|Package]
+PackageFolder=C:\WINDOWS\Desktop\SH
+ProjectFolder=C:\WINDOWS\Desktop\VB-Programme\Simply Hack 4\client
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\SH\setup.exe
+File2=C:\WINDOWS\Desktop\SH\Setup.Lst
+File3=C:\WINDOWS\Desktop\SH\Simply Hack.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
