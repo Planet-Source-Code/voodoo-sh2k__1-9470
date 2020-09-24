@@ -1,0 +1,307 @@
+[Root]
+Most Recent Package=Standardm‰ﬂiges Setup-Paket 2
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\123
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Found]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Added]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files Removed]
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Files In Project]
+C:\WINDOWS\Desktop\contr.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6DE.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\INETDE.DLL=Yes
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Install Locations]
+C:\WINDOWS\Desktop\contr.exe=$(WinPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\INETDE.DLL=$(WinSysPath)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Configure Shared Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Distribution]
+Type=single
+Size=
+Title=Systray
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|IconGroups]
+Group0=Systray
+PrivateGroup0=Wahr
+Parent0=$(Programs)
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Systray]
+Icon1=contr.exe
+Title1=Systray
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standardm‰ﬂiges Setup-Paket 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\123
+ProjectFolder=C:\WINDOWS\Desktop\VB-Programme\Simply Hack\server
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\123\setup.exe
+File2=C:\WINDOWS\Desktop\123\Setup.Lst
+File3=C:\WINDOWS\Desktop\123\contr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|DEP-Datei 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\123
+
+[Package|DEP-Datei 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|DEP-Datei 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|DEP-Datei 1|Files Found]
+
+[Package|DEP-Datei 1|Files Released]
+
+[Package|DEP-Datei 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSDXM.OCX=
+
+[Package|DEP-Datei 1|Out-of-Date Dependency Information]
+
+[Package|DEP-Datei 1|Files Added]
+
+[Package|DEP-Datei 1|Files Removed]
+
+[Package|DEP-Datei 1|Files In Project]
+C:\WINDOWS\Desktop\contr.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6DE.DLL=Yes
+C:\WINDOWS\SYSTEM\COMCT232.OCX=Yes
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDXM.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\INETDE.DLL=Yes
+
+[Package|DEP-Datei 1|Configure Registry Files]
+Applicable=No
+
+[Package|DEP-Datei 1|Configure Remote Servers]
+Applicable=No
+
+[Package|DEP-Datei 1|Install Locations]
+C:\WINDOWS\Desktop\contr.exe=$(WinPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT232.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDXM.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\INETDE.DLL=$(WinSysPath)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Programme\Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|DEP-Datei 1|Configure Shared Files]
+Applicable=No
+
+[Package|DEP-Datei 1|Distribution]
+Type=single
+Size=
+Title=Systray
+
+[Package|DEP-Datei 1|IconGroups]
+Group0=Systray
+PrivateGroup0=Wahr
+Parent0=$(Programs)
+
+[Package|DEP-Datei 1|Systray]
+Icon1=contr.exe
+Title1=Systray
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|DEP-Datei 1|DepFile]
+DepCabFile=contr.CAB
+DepCabRun=contr.INF
+
+[Package|DEP-Datei 1|Package]
+PackageFolder=C:\WINDOWS\Desktop\123
+ProjectFolder=C:\WINDOWS\Desktop\VB-Programme\Simply Hack\server
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\123\contr.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Simply Hack 2\server\Paket
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Found]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Released]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Out-of-Date Dependency Information]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Added]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files Removed]
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Files In Project]
+C:\WINDOWS\Desktop\contr.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+D:\DevStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\VB6DE.DLL=Yes
+C:\WINDOWS\SYSTEM\Comct232.ocx=Yes
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\WINDOWS\SYSTEM\Msinet.ocx=Yes
+C:\WINDOWS\SYSTEM\INETDE.DLL=Yes
+D:\DevStudio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+D:\DevStudio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+D:\DevStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Registry Files]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Remote Servers]
+Applicable=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Install Locations]
+C:\WINDOWS\Desktop\contr.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+D:\DevStudio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\VB6DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comct232.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\CMCT2DE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\WINSKDE.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Msinet.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\INETDE.DLL=$(WinSysPath)
+D:\DevStudio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\DevStudio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\DevStudio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\contr.exe=No
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Distribution]
+Type=single
+Size=
+Title=Systray
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|IconGroups]
+Group0=Systray
+PrivateGroup0=Wahr
+Parent0=$(Programs)
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Systray]
+Icon1=contr.exe
+Title1=Systray
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standardm‰ﬂiges Setup-Paket 2|Package]
+PackageFolder=C:\WINDOWS\Desktop\Simply Hack 2\server\Paket
+ProjectFolder=C:\WINDOWS\Desktop\Simply Hack 2\server
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Simply Hack 2\server\Paket\setup.exe
+File2=C:\WINDOWS\Desktop\Simply Hack 2\server\Paket\Setup.Lst
+File3=C:\WINDOWS\Desktop\Simply Hack 2\server\Paket\contr.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
